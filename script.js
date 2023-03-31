@@ -153,3 +153,18 @@
 
 // console.log(userProfile)
 // ================================= //
+
+
+
+// $(document).ready(function () {
+//    $("button").click(function () {
+//       $("#test").html('hahaha');
+//    });
+// });
+
+
+// document.getElementById("test").innerHTML = "hello";
+
+function thanksBtn() {
+   document.getElementById("test").innerHTML = "HELLO"
+}
