@@ -166,5 +166,6 @@
 // document.getElementById("test").innerHTML = "hello";
 
 function thanksBtn() {
-   document.getElementById("test").innerHTML = "HELLO"
+   document.getElementById("test").innerHTML = "HELLO";
+   document.getElementById("test").style.backgroundColor = '#911';
 }
