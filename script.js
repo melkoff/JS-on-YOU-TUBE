@@ -14,11 +14,9 @@
 
 // const newObject = objectAlphabet
 
-// newObject.d = 4;
+// // newObject.d = 4;
 
 // console.log(newObject)
-
-//objectAlphabet.d -> 4
 
 // Objetc це силочний тип! //
 // Тут ми переприсвоюємо значення змінній objectAlphabet, бо це є силочний тип! //
@@ -103,7 +101,7 @@
 // delete myCity.city
 
 // console.log(myCity)
-// ================================= //
+// // ================================= //
 
 // Доступ до значення властивості з викристанням скобок //
 // const myCity = {
@@ -128,7 +126,7 @@
 // }
 
 // console.log(myCity.info.popular)
-// // Верне true
+// Верне true
 
 // delete myCity.info['country']
 
@@ -143,9 +141,10 @@
 //    name: name,
 //    year: yearQty,
 //    hasSignedAgreement: false
+// }
 
 //    // OR SECOND SHORT OPTION //
-
+// {
 //    // name,
 //    // yearQty,
 //    // hasSignedAgreement: false
@@ -155,17 +154,15 @@
 // ================================= //
 
 
-
+// JQERY library //
 // $(document).ready(function () {
 //    $("button").click(function () {
 //       $("#test").html('hahaha');
 //    });
 // });
+// ==================================== //
 
-
-// document.getElementById("test").innerHTML = "hello";
-
-function thanksBtn() {
-   document.getElementById("test").innerHTML = "HELLO";
-   document.getElementById("test").style.backgroundColor = '#911';
-}
+// function thanksBtn() {
+//    document.getElementById("test").innerHTML = "HELLO";
+//    document.getElementById("test").style.backgroundColor = '#911';
+// }
